@@ -16,7 +16,7 @@
         <div class="col-lg-3"></div>
         
         <div class="col-lg-3">
-          <button @click="$emit('toggle', tarefa)" class="btn btn-success" v-on:click="likeAndSubscribe()">
+          <button @click="$emit('toggle', tarefa)" class="btn btn-success">
             <span v-if="tarefa.checked">Desmarcar</span>
             <span v-else>Concluído</span>
           </button>
